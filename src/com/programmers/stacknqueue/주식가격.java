@@ -2,7 +2,7 @@ package com.programmers.stacknqueue;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution1 {
     public int[] solution(int[] prices) {
 
         int size = prices.length;
@@ -26,7 +26,7 @@ class Solution {
 
 public class 주식가격 {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution1 s = new Solution1();
         int[] arr = {1, 2, 3, 2, 3};
         System.out.println(Arrays.toString(s.solution(arr)));
     }

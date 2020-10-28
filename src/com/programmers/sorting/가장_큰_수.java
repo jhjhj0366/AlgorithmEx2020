@@ -36,7 +36,6 @@ class Solution {
             }
         });
 
-
         for (int i = 0; i < arr.size(); i++) {
             answer += arr.get(i);
         }
